@@ -1,0 +1,1365 @@
+# depslib dependency file v1.0
+1611488317 source:d:\informatyka\programy\miasto\main.cpp
+	<iostream>
+	<Budynek.h>
+	<postac.h>
+	<Sad.h>
+	<obywatel.h>
+	<Sedzia.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+	<Policjant.h>
+	<ctime>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<Komisariat.h>
+	<Dom.h>
+	<Sprzatacz.h>
+	<losowanie.h>
+	<Dane_osobowe.h>
+	<Dodanie_osoby.h>
+	<infrastruktura.h>
+	<informacja_budowlana.h>
+	<Urzednik.h>
+	<Istota.h>
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+	"Pies.h"
+	"Kot.h"
+	"Pies_policyjny.h"
+	"Patrol.h"
+
+1607714057 d:\informatyka\programy\miasto\include\budynek.h
+	<iostream>
+	"Dzielnica.h"
+
+1607715538 d:\informatyka\programy\miasto\include\postac.h
+	<iostream>
+	<Istota.h>
+
+1607706002 d:\informatyka\programy\miasto\include\sad.h
+	<iostream>
+	<Budynek.h>
+	<vector>
+	<Sedzia.h>
+
+1611484617 d:\informatyka\programy\miasto\include\obywatel.h
+	<iostream>
+	<Postac.h>
+	<vector>
+	<Dom.h>
+
+1611487795 d:\informatyka\programy\miasto\include\sedzia.h
+	<iostream>
+	<postac.h>
+	<obywatel.h>
+	<wiezien.h>
+	<Sad.h>
+	"Ministerstwo.h"
+
+1605980534 d:\informatyka\programy\miasto\include\wiezien.h
+	<iostream>
+	<postac.h>
+	<Wiezienie.h>
+
+1607714025 source:d:\informatyka\programy\miasto\src\budynek.cpp
+	"Budynek.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1611484902 source:d:\informatyka\programy\miasto\src\obywatel.cpp
+	"Obywatel.h"
+	<iostream>
+	<postac.h>
+	<vector>
+
+1607715928 source:d:\informatyka\programy\miasto\src\postac.cpp
+	"Postac.h"
+	<iostream>
+
+1607706025 source:d:\informatyka\programy\miasto\src\sad.cpp
+	"Sad.h"
+	<iostream>
+	<Budynek.h>
+	<conio.h>
+
+1611487908 source:d:\informatyka\programy\miasto\src\sedzia.cpp
+	"Sedzia.h"
+	<postac.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1605981353 source:d:\informatyka\programy\miasto\src\wiezien.cpp
+	"Wiezien.h"
+	"postac.h"
+	<iostream>
+
+1611486966 source:d:\informatyka\programy\miasto\src\policjant.cpp
+	<iostream>
+	<Policjant.h>
+
+1611487326 d:\informatyka\programy\miasto\include\policjant.h
+	<postac.h>
+
+1607704864 source:d:\informatyka\programy\miasto\src\wiezienie.cpp
+	"Wiezienie.h"
+	<iostream>
+	<Budynek.h>
+	<Wiezien.h>
+
+1607705241 d:\informatyka\programy\miasto\include\wiezienie.h
+	<iostream>
+	<vector>
+	<Budynek.h>
+	<Wiezien.h>
+
+1607704610 source:d:\informatyka\programy\miasto\src\komisariat.cpp
+	"Komisariat.h"
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+
+1607705286 d:\informatyka\programy\miasto\include\komisariat.h
+	<Budynek.h>
+	<vector>
+	<Policjant.h>
+	<Patrol.h>
+
+1611484010 source:d:\informatyka\programy\miasto\src\dom.cpp
+	"Dom.h"
+	<obywatel.h>
+	<vector>
+	<stdio.h>
+
+1611484299 d:\informatyka\programy\miasto\include\dom.h
+	<vector>
+	<obywatel.h>
+	<Budynek.h>
+	<Sprzatacz.h>
+	<Dom.h>
+	<przyjazn.h>
+
+1604605459 d:\informatyka\programy\miasto\include\sprzatacz.h
+	<postac.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1605983792 source:d:\informatyka\programy\miasto\src\sprzatacz.cpp
+	"Sprzatacz.h"
+	<postac.h>
+	<Komisariat.h>
+	<Policjant.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1603725084 source:d:\informatyka\programy\miasto\src\losowanie.cpp
+	"losowanie.h"
+
+1603826424 d:\informatyka\programy\miasto\include\losowanie.h
+	<stdlib.h>
+
+1603728820 source:d:\informatyka\programy\miasto\src\dane_osobowe.cpp
+	"Dane_osobowe.h"
+
+1605992640 d:\informatyka\programy\miasto\include\dane_osobowe.h
+	<iostream>
+
+1603731658 source:d:\informatyka\programy\miasto\src\dodanie_osoby.cpp
+	"Dodanie_osoby.h"
+
+1603826178 d:\informatyka\programy\miasto\include\dodanie_osoby.h
+	<iostream>
+	<windows.h>
+
+1603735192 source:d:\informatyka\programy\miasto\src\infrastruktura.cpp
+	"infrastruktura.h"
+
+1603826424 d:\informatyka\programy\miasto\include\infrastruktura.h
+	<iostream>
+	<windows.h>
+
+1603798158 source:d:\informatyka\programy\miasto\src\informacja_budowlana.cpp
+	"informacja_budowlana.h"
+
+1603826424 d:\informatyka\programy\miasto\include\informacja_budowlana.h
+	<iostream>
+	<windows.h>
+
+1604515086 d:\informatyka\programy\miasto\include\przyjazn.h
+	<Dom.h>
+	<Dodanie_osoby.h>
+
+1604515086 source:d:\informatyka\programy\miasto\src\przyjazn.cpp
+	"przyjazn.h"
+	<Dom.h>
+
+1605983792 source:d:\informatyka\programy\miasto\src\urzednik.cpp
+	"Urzednik.h"
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<iostream>
+	<Sprzatacz.h>
+
+1604667893 d:\informatyka\programy\miasto\include\urzednik.h
+	<iostream>
+	<string>
+	<stdio.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<Sprzatacz.h>
+	<Dom.h>
+
+1607715151 d:\informatyka\programy\miasto\include\istota.h
+	<string>
+
+1606145412 source:d:\informatyka\programy\miasto\src\istota.cpp
+	"Istota.h"
+
+1607704824 source:d:\informatyka\programy\miasto\src\policjant_akcja.cpp
+	"Policjant_akcja.h"
+
+1605983224 d:\informatyka\programy\miasto\include\policjant_akcja.h
+	<Policjant.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+
+1607705333 source:d:\informatyka\programy\miasto\src\policjant_biuro.cpp
+	<Policjant_biuro.h>
+	<fstream>
+
+1611475712 d:\informatyka\programy\miasto\include\policjant_biuro.h
+	<Policjant.h>
+	<Wiezien.h>
+
+1605992796 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\main.cpp
+	<iostream>
+	<Budynek.h>
+	<postac.h>
+	<Sad.h>
+	<obywatel.h>
+	<Sedzia.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+	<Policjant.h>
+	<ctime>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<Komisariat.h>
+	<Dom.h>
+	<Sprzatacz.h>
+	<losowanie.h>
+	<Dane_osobowe.h>
+	<Dodanie_osoby.h>
+	<infrastruktura.h>
+	<informacja_budowlana.h>
+	<Urzednik.h>
+	<Istota.h>
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+
+1604611543 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\budynek.h
+	<iostream>
+
+1605977878 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\postac.h
+	<iostream>
+	<Istota.h>
+
+1605969295 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\istota.h
+	<string>
+
+1604611671 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\sad.h
+	<iostream>
+	<Budynek.h>
+	<vector>
+	<Sedzia.h>
+
+1604605483 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\sedzia.h
+	<iostream>
+	<postac.h>
+	<obywatel.h>
+	<wiezien.h>
+	<Sad.h>
+
+1604605418 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\obywatel.h
+	<iostream>
+	<Postac.h>
+	<vector>
+	<Dom.h>
+
+1604605516 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\dom.h
+	<vector>
+	<obywatel.h>
+	<Budynek.h>
+	<Sprzatacz.h>
+	<Dom.h>
+	<przyjazn.h>
+
+1604605459 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\sprzatacz.h
+	<postac.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1605992368 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\komisariat.h
+	<Budynek.h>
+	<vector>
+	<Policjant.h>
+
+1605983224 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\policjant_akcja.h
+	<Policjant.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+
+1605984147 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\policjant.h
+	<postac.h>
+
+1605980534 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\wiezien.h
+	<iostream>
+	<postac.h>
+	<Wiezienie.h>
+
+1604611824 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\wiezienie.h
+	<iostream>
+	<vector>
+	<Budynek.h>
+	<Wiezien.h>
+
+1605984753 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\policjant_biuro.h
+	<Policjant.h>
+	<Wiezien.h>
+
+1604515086 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\przyjazn.h
+	<Dom.h>
+	<Dodanie_osoby.h>
+
+1603826178 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\dodanie_osoby.h
+	<iostream>
+	<windows.h>
+
+1603826424 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\losowanie.h
+	<stdlib.h>
+
+1605992640 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\dane_osobowe.h
+	<iostream>
+
+1603826424 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\infrastruktura.h
+	<iostream>
+	<windows.h>
+
+1603826424 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\informacja_budowlana.h
+	<iostream>
+	<windows.h>
+
+1604667893 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\urzednik.h
+	<iostream>
+	<string>
+	<stdio.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<Sprzatacz.h>
+	<Dom.h>
+
+1603824478 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\budynek.cpp
+	"Budynek.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1603728820 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\dane_osobowe.cpp
+	"Dane_osobowe.h"
+
+1603731658 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\dodanie_osoby.cpp
+	"Dodanie_osoby.h"
+
+1605988388 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\dom.cpp
+	"Dom.h"
+	<obywatel.h>
+	<vector>
+	<stdio.h>
+
+1603798158 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\informacja_budowlana.cpp
+	"informacja_budowlana.h"
+
+1603735192 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\infrastruktura.cpp
+	"infrastruktura.h"
+
+1605968661 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\istota.cpp
+	"Istota.h"
+
+1605992336 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\komisariat.cpp
+	"Komisariat.h"
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+
+1603725084 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\losowanie.cpp
+	"losowanie.h"
+
+1605988579 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\obywatel.cpp
+	"Obywatel.h"
+	<iostream>
+	<postac.h>
+	<vector>
+
+1605992499 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\policjant.cpp
+	<iostream>
+	<Policjant.h>
+
+1605984274 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\policjant_akcja.cpp
+	"Policjant_akcja.h"
+
+1605991914 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\policjant_biuro.cpp
+	<Policjant_biuro.h>
+	<fstream>
+
+1605991301 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\postac.cpp
+	"Postac.h"
+	<iostream>
+
+1604515086 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\przyjazn.cpp
+	"przyjazn.h"
+	<Dom.h>
+
+1603823498 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\sad.cpp
+	"Sad.h"
+	<iostream>
+	<Budynek.h>
+
+1604526344 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\sedzia.cpp
+	"Sedzia.h"
+	<postac.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1605983792 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\sprzatacz.cpp
+	"Sprzatacz.h"
+	<postac.h>
+	<Komisariat.h>
+	<Policjant.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1605983792 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\urzednik.cpp
+	"Urzednik.h"
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<iostream>
+	<Sprzatacz.h>
+
+1605981353 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\wiezien.cpp
+	"Wiezien.h"
+	"postac.h"
+	<iostream>
+
+1603823040 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\wiezienie.cpp
+	"Wiezienie.h"
+	<iostream>
+	<Budynek.h>
+	<Wiezien.h>
+
+1605994000 source:d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\src\zwierze.cpp
+	"zwierze.h"
+
+1605994046 d:\informatyka\archiwum\miasto_v13(wadliwy)\miasto\include\zwierze.h
+	<Istota.h>
+
+1605992796 source:d:\informatyka\archiwum\miasto_v13\miasto\main.cpp
+	<iostream>
+	<Budynek.h>
+	<postac.h>
+	<Sad.h>
+	<obywatel.h>
+	<Sedzia.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+	<Policjant.h>
+	<ctime>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<Komisariat.h>
+	<Dom.h>
+	<Sprzatacz.h>
+	<losowanie.h>
+	<Dane_osobowe.h>
+	<Dodanie_osoby.h>
+	<infrastruktura.h>
+	<informacja_budowlana.h>
+	<Urzednik.h>
+	<Istota.h>
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+
+1604611543 d:\informatyka\archiwum\miasto_v13\miasto\include\budynek.h
+	<iostream>
+
+1605977878 d:\informatyka\archiwum\miasto_v13\miasto\include\postac.h
+	<iostream>
+	<Istota.h>
+
+1605969295 d:\informatyka\archiwum\miasto_v13\miasto\include\istota.h
+	<string>
+
+1604611671 d:\informatyka\archiwum\miasto_v13\miasto\include\sad.h
+	<iostream>
+	<Budynek.h>
+	<vector>
+	<Sedzia.h>
+
+1604605483 d:\informatyka\archiwum\miasto_v13\miasto\include\sedzia.h
+	<iostream>
+	<postac.h>
+	<obywatel.h>
+	<wiezien.h>
+	<Sad.h>
+
+1604605418 d:\informatyka\archiwum\miasto_v13\miasto\include\obywatel.h
+	<iostream>
+	<Postac.h>
+	<vector>
+	<Dom.h>
+
+1604605516 d:\informatyka\archiwum\miasto_v13\miasto\include\dom.h
+	<vector>
+	<obywatel.h>
+	<Budynek.h>
+	<Sprzatacz.h>
+	<Dom.h>
+	<przyjazn.h>
+
+1604605459 d:\informatyka\archiwum\miasto_v13\miasto\include\sprzatacz.h
+	<postac.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1605992368 d:\informatyka\archiwum\miasto_v13\miasto\include\komisariat.h
+	<Budynek.h>
+	<vector>
+	<Policjant.h>
+
+1605984147 d:\informatyka\archiwum\miasto_v13\miasto\include\policjant.h
+	<postac.h>
+
+1604611824 d:\informatyka\archiwum\miasto_v13\miasto\include\wiezienie.h
+	<iostream>
+	<vector>
+	<Budynek.h>
+	<Wiezien.h>
+
+1605980534 d:\informatyka\archiwum\miasto_v13\miasto\include\wiezien.h
+	<iostream>
+	<postac.h>
+	<Wiezienie.h>
+
+1604515086 d:\informatyka\archiwum\miasto_v13\miasto\include\przyjazn.h
+	<Dom.h>
+	<Dodanie_osoby.h>
+
+1603826178 d:\informatyka\archiwum\miasto_v13\miasto\include\dodanie_osoby.h
+	<iostream>
+	<windows.h>
+
+1603826424 d:\informatyka\archiwum\miasto_v13\miasto\include\losowanie.h
+	<stdlib.h>
+
+1605992640 d:\informatyka\archiwum\miasto_v13\miasto\include\dane_osobowe.h
+	<iostream>
+
+1603826424 d:\informatyka\archiwum\miasto_v13\miasto\include\infrastruktura.h
+	<iostream>
+	<windows.h>
+
+1603826424 d:\informatyka\archiwum\miasto_v13\miasto\include\informacja_budowlana.h
+	<iostream>
+	<windows.h>
+
+1604667893 d:\informatyka\archiwum\miasto_v13\miasto\include\urzednik.h
+	<iostream>
+	<string>
+	<stdio.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<Sprzatacz.h>
+	<Dom.h>
+
+1605983224 d:\informatyka\archiwum\miasto_v13\miasto\include\policjant_akcja.h
+	<Policjant.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+
+1605984753 d:\informatyka\archiwum\miasto_v13\miasto\include\policjant_biuro.h
+	<Policjant.h>
+	<Wiezien.h>
+
+1603824478 source:d:\informatyka\archiwum\miasto_v13\miasto\src\budynek.cpp
+	"Budynek.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1603728820 source:d:\informatyka\archiwum\miasto_v13\miasto\src\dane_osobowe.cpp
+	"Dane_osobowe.h"
+
+1603731658 source:d:\informatyka\archiwum\miasto_v13\miasto\src\dodanie_osoby.cpp
+	"Dodanie_osoby.h"
+
+1605988388 source:d:\informatyka\archiwum\miasto_v13\miasto\src\dom.cpp
+	"Dom.h"
+	<obywatel.h>
+	<vector>
+	<stdio.h>
+
+1603798158 source:d:\informatyka\archiwum\miasto_v13\miasto\src\informacja_budowlana.cpp
+	"informacja_budowlana.h"
+
+1603735192 source:d:\informatyka\archiwum\miasto_v13\miasto\src\infrastruktura.cpp
+	"infrastruktura.h"
+
+1605968661 source:d:\informatyka\archiwum\miasto_v13\miasto\src\istota.cpp
+	"Istota.h"
+
+1605992336 source:d:\informatyka\archiwum\miasto_v13\miasto\src\komisariat.cpp
+	"Komisariat.h"
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+
+1603725084 source:d:\informatyka\archiwum\miasto_v13\miasto\src\losowanie.cpp
+	"losowanie.h"
+
+1605988579 source:d:\informatyka\archiwum\miasto_v13\miasto\src\obywatel.cpp
+	"Obywatel.h"
+	<iostream>
+	<postac.h>
+	<vector>
+
+1605992499 source:d:\informatyka\archiwum\miasto_v13\miasto\src\policjant.cpp
+	<iostream>
+	<Policjant.h>
+
+1605984274 source:d:\informatyka\archiwum\miasto_v13\miasto\src\policjant_akcja.cpp
+	"Policjant_akcja.h"
+
+1605991914 source:d:\informatyka\archiwum\miasto_v13\miasto\src\policjant_biuro.cpp
+	<Policjant_biuro.h>
+	<fstream>
+
+1605991301 source:d:\informatyka\archiwum\miasto_v13\miasto\src\postac.cpp
+	"Postac.h"
+	<iostream>
+
+1604515086 source:d:\informatyka\archiwum\miasto_v13\miasto\src\przyjazn.cpp
+	"przyjazn.h"
+	<Dom.h>
+
+1603823498 source:d:\informatyka\archiwum\miasto_v13\miasto\src\sad.cpp
+	"Sad.h"
+	<iostream>
+	<Budynek.h>
+
+1604526344 source:d:\informatyka\archiwum\miasto_v13\miasto\src\sedzia.cpp
+	"Sedzia.h"
+	<postac.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1605983792 source:d:\informatyka\archiwum\miasto_v13\miasto\src\sprzatacz.cpp
+	"Sprzatacz.h"
+	<postac.h>
+	<Komisariat.h>
+	<Policjant.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1605983792 source:d:\informatyka\archiwum\miasto_v13\miasto\src\urzednik.cpp
+	"Urzednik.h"
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<iostream>
+	<Sprzatacz.h>
+
+1605981353 source:d:\informatyka\archiwum\miasto_v13\miasto\src\wiezien.cpp
+	"Wiezien.h"
+	"postac.h"
+	<iostream>
+
+1603823040 source:d:\informatyka\archiwum\miasto_v13\miasto\src\wiezienie.cpp
+	"Wiezienie.h"
+	<iostream>
+	<Budynek.h>
+	<Wiezien.h>
+
+1605994000 source:d:\informatyka\archiwum\miasto_v13\miasto\src\zwierze.cpp
+	"zwierze.h"
+
+1605994046 d:\informatyka\archiwum\miasto_v13\miasto\include\zwierze.h
+	<Istota.h>
+
+1607715847 source:d:\informatyka\programy\miasto\src\zwierze.cpp
+	"zwierze.h"
+	<iostream>
+
+1607715538 d:\informatyka\programy\miasto\include\zwierze.h
+	<Istota.h>
+
+1607714308 source:d:\informatyka\programy\miasto\src\pies.cpp
+	"Pies.h"
+	<iostream>
+
+1607714308 d:\informatyka\programy\miasto\include\pies.h
+	"zwierze.h"
+
+1607714308 source:d:\informatyka\programy\miasto\src\kot.cpp
+	"Kot.h"
+	<iostream>
+
+1607714308 d:\informatyka\programy\miasto\include\kot.h
+	"zwierze.h"
+
+1607714308 source:d:\informatyka\programy\miasto\src\pies_policyjny.cpp
+	"Pies_policyjny.h"
+	<iostream>
+	<conio.h>
+
+1607710670 d:\informatyka\programy\miasto\include\pies_policyjny.h
+	"Pies.h"
+
+1607714025 source:d:\informatyka\programy\miasto\src\dzielnica.cpp
+	"Dzielnica.h"
+
+1607714062 d:\informatyka\programy\miasto\include\dzielnica.h
+	<iostream>
+
+1607714308 source:d:\informatyka\programy\miasto\src\patrol.cpp
+	"Patrol.h"
+	<iostream>
+	<Komisariat.h>
+	"Pies_policyjny.h"
+
+1606152436 d:\informatyka\programy\miasto\include\patrol.h
+	"Policjant_akcja.h"
+	"Pies_policyjny.h"
+	"Komisariat.h"
+
+1606157236 d:\informatyka\programy\miasto\include\ministerstwo.h
+	<iostream>
+	<vector>
+
+1606158675 source:d:\informatyka\programy\miasto\src\ministerstwo.cpp
+	"Ministerstwo.h"
+	<iostream>
+	<vector>
+	<fstream>
+
+1607717626 source:c:\programy c\miasto_v19\src\budynek.cpp
+	"Budynek.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1607717658 c:\programy c\miasto_v19\include\budynek.h
+	<iostream>
+	"Dzielnica.h"
+
+1607717664 c:\programy c\miasto_v19\include\dzielnica.h
+	<iostream>
+
+1603732420 source:c:\programy c\miasto_v19\src\dane_osobowe.cpp
+	"Dane_osobowe.h"
+
+1605996242 c:\programy c\miasto_v19\include\dane_osobowe.h
+	<iostream>
+
+1603735258 source:c:\programy c\miasto_v19\src\dodanie_osoby.cpp
+	"Dodanie_osoby.h"
+
+1603829778 c:\programy c\miasto_v19\include\dodanie_osoby.h
+	<iostream>
+	<windows.h>
+
+1611484012 source:c:\programy c\miasto_v19\src\dom.cpp
+	"Dom.h"
+	<obywatel.h>
+	<vector>
+	<stdio.h>
+
+1611487900 c:\programy c\miasto_v19\include\dom.h
+	<vector>
+	<obywatel.h>
+	<Budynek.h>
+	<Sprzatacz.h>
+	<Dom.h>
+	<przyjazn.h>
+
+1611488218 c:\programy c\miasto_v19\include\obywatel.h
+	<iostream>
+	<Postac.h>
+	<vector>
+	<Dom.h>
+
+1607719140 c:\programy c\miasto_v19\include\postac.h
+	<iostream>
+	<Istota.h>
+
+1607718752 c:\programy c\miasto_v19\include\istota.h
+	<string>
+
+1604609060 c:\programy c\miasto_v19\include\sprzatacz.h
+	<postac.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1607708888 c:\programy c\miasto_v19\include\komisariat.h
+	<Budynek.h>
+	<vector>
+	<Policjant.h>
+	<Patrol.h>
+
+1611490928 c:\programy c\miasto_v19\include\policjant.h
+	<postac.h>
+
+1606156038 c:\programy c\miasto_v19\include\patrol.h
+	"Policjant_akcja.h"
+	"Pies_policyjny.h"
+	"Komisariat.h"
+
+1605986826 c:\programy c\miasto_v19\include\policjant_akcja.h
+	<Policjant.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+
+1605984136 c:\programy c\miasto_v19\include\wiezien.h
+	<iostream>
+	<postac.h>
+	<Wiezienie.h>
+
+1607708842 c:\programy c\miasto_v19\include\wiezienie.h
+	<iostream>
+	<vector>
+	<Budynek.h>
+	<Wiezien.h>
+
+1607714272 c:\programy c\miasto_v19\include\pies_policyjny.h
+	"Pies.h"
+
+1607717910 c:\programy c\miasto_v19\include\pies.h
+	"zwierze.h"
+
+1607719140 c:\programy c\miasto_v19\include\zwierze.h
+	<Istota.h>
+
+1607709604 c:\programy c\miasto_v19\include\sad.h
+	<iostream>
+	<Budynek.h>
+	<vector>
+	<Sedzia.h>
+
+1611491396 c:\programy c\miasto_v19\include\sedzia.h
+	<iostream>
+	<postac.h>
+	<obywatel.h>
+	<wiezien.h>
+	<Sad.h>
+	"Ministerstwo.h"
+
+1606160838 c:\programy c\miasto_v19\include\ministerstwo.h
+	<iostream>
+	<vector>
+
+1604518688 c:\programy c\miasto_v19\include\przyjazn.h
+	<Dom.h>
+	<Dodanie_osoby.h>
+
+1607717626 source:c:\programy c\miasto_v19\src\dzielnica.cpp
+	"Dzielnica.h"
+
+1603801758 source:c:\programy c\miasto_v19\src\informacja_budowlana.cpp
+	"informacja_budowlana.h"
+
+1603830024 c:\programy c\miasto_v19\include\informacja_budowlana.h
+	<iostream>
+	<windows.h>
+
+1603738792 source:c:\programy c\miasto_v19\src\infrastruktura.cpp
+	"infrastruktura.h"
+
+1603830024 c:\programy c\miasto_v19\include\infrastruktura.h
+	<iostream>
+	<windows.h>
+
+1606149014 source:c:\programy c\miasto_v19\src\istota.cpp
+	"Istota.h"
+
+1607708212 source:c:\programy c\miasto_v19\src\komisariat.cpp
+	"Komisariat.h"
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+
+1611479314 c:\programy c\miasto_v19\include\policjant_biuro.h
+	<Policjant.h>
+	<Wiezien.h>
+
+1607717910 source:c:\programy c\miasto_v19\src\kot.cpp
+	"Kot.h"
+	<iostream>
+
+1607717910 c:\programy c\miasto_v19\include\kot.h
+	"zwierze.h"
+
+1603728684 source:c:\programy c\miasto_v19\src\losowanie.cpp
+	"losowanie.h"
+
+1603830024 c:\programy c\miasto_v19\include\losowanie.h
+	<stdlib.h>
+
+1606162276 source:c:\programy c\miasto_v19\src\ministerstwo.cpp
+	"Ministerstwo.h"
+	<iostream>
+	<vector>
+	<fstream>
+
+1611488504 source:c:\programy c\miasto_v19\src\obywatel.cpp
+	"Obywatel.h"
+	<iostream>
+	<postac.h>
+	<vector>
+
+1607717910 source:c:\programy c\miasto_v19\src\patrol.cpp
+	"Patrol.h"
+	<iostream>
+	<Komisariat.h>
+	"Pies_policyjny.h"
+
+1607717910 source:c:\programy c\miasto_v19\src\pies.cpp
+	"Pies.h"
+	<iostream>
+
+1607717910 source:c:\programy c\miasto_v19\src\pies_policyjny.cpp
+	"Pies_policyjny.h"
+	<iostream>
+	<conio.h>
+
+1611490568 source:c:\programy c\miasto_v19\src\policjant.cpp
+	<iostream>
+	<Policjant.h>
+
+1607704826 source:c:\programy c\miasto_v19\src\policjant_akcja.cpp
+	"Policjant_akcja.h"
+
+1607708934 source:c:\programy c\miasto_v19\src\policjant_biuro.cpp
+	<Policjant_biuro.h>
+	<fstream>
+
+1607719530 source:c:\programy c\miasto_v19\src\postac.cpp
+	"Postac.h"
+	<iostream>
+
+1604518688 source:c:\programy c\miasto_v19\src\przyjazn.cpp
+	"przyjazn.h"
+	<Dom.h>
+
+1607709626 source:c:\programy c\miasto_v19\src\sad.cpp
+	"Sad.h"
+	<iostream>
+	<Budynek.h>
+	<conio.h>
+
+1611491510 source:c:\programy c\miasto_v19\src\sedzia.cpp
+	"Sedzia.h"
+	<postac.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1605987394 source:c:\programy c\miasto_v19\src\sprzatacz.cpp
+	"Sprzatacz.h"
+	<postac.h>
+	<Komisariat.h>
+	<Policjant.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1605987394 source:c:\programy c\miasto_v19\src\urzednik.cpp
+	"Urzednik.h"
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<iostream>
+	<Sprzatacz.h>
+
+1604671494 c:\programy c\miasto_v19\include\urzednik.h
+	<iostream>
+	<string>
+	<stdio.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<Sprzatacz.h>
+	<Dom.h>
+
+1605984954 source:c:\programy c\miasto_v19\src\wiezien.cpp
+	"Wiezien.h"
+	"postac.h"
+	<iostream>
+
+1607708466 source:c:\programy c\miasto_v19\src\wiezienie.cpp
+	"Wiezienie.h"
+	<iostream>
+	<Budynek.h>
+	<Wiezien.h>
+
+1607719448 source:c:\programy c\miasto_v19\src\zwierze.cpp
+	"zwierze.h"
+	<iostream>
+
+1611488348 source:c:\programy c\miasto_v19\main.cpp
+	<iostream>
+	<Budynek.h>
+	<postac.h>
+	<Sad.h>
+	<obywatel.h>
+	<Sedzia.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+	<Policjant.h>
+	<ctime>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<Komisariat.h>
+	<Dom.h>
+	<Sprzatacz.h>
+	<losowanie.h>
+	<Dane_osobowe.h>
+	<Dodanie_osoby.h>
+	<infrastruktura.h>
+	<informacja_budowlana.h>
+	<Urzednik.h>
+	<Istota.h>
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+	"Pies.h"
+	"Kot.h"
+	"Pies_policyjny.h"
+	"Patrol.h"
+
+1680296597 source:c:\programy c\the city of blind justice\main.cpp
+	<iostream>
+	<Budynek.h>
+	<postac.h>
+	<Sad.h>
+	<obywatel.h>
+	<Sedzia.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+	<Policjant.h>
+	<ctime>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<Komisariat.h>
+	<Dom.h>
+	<Sprzatacz.h>
+	<losowanie.h>
+	<Dane_osobowe.h>
+	<Dodanie_osoby.h>
+	<infrastruktura.h>
+	<informacja_budowlana.h>
+	<Urzednik.h>
+	<Istota.h>
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+	"Pies.h"
+	"Kot.h"
+	"Pies_policyjny.h"
+	"Patrol.h"
+
+1607717658 c:\programy c\the city of blind justice\include\budynek.h
+	<iostream>
+	"Dzielnica.h"
+
+1607717664 c:\programy c\the city of blind justice\include\dzielnica.h
+	<iostream>
+
+1607719140 c:\programy c\the city of blind justice\include\postac.h
+	<iostream>
+	<Istota.h>
+
+1607718752 c:\programy c\the city of blind justice\include\istota.h
+	<string>
+
+1607709604 c:\programy c\the city of blind justice\include\sad.h
+	<iostream>
+	<Budynek.h>
+	<vector>
+	<Sedzia.h>
+
+1611491396 c:\programy c\the city of blind justice\include\sedzia.h
+	<iostream>
+	<postac.h>
+	<obywatel.h>
+	<wiezien.h>
+	<Sad.h>
+	"Ministerstwo.h"
+
+1611488218 c:\programy c\the city of blind justice\include\obywatel.h
+	<iostream>
+	<Postac.h>
+	<vector>
+	<Dom.h>
+
+1611487900 c:\programy c\the city of blind justice\include\dom.h
+	<vector>
+	<obywatel.h>
+	<Budynek.h>
+	<Sprzatacz.h>
+	<Dom.h>
+	<przyjazn.h>
+
+1604609060 c:\programy c\the city of blind justice\include\sprzatacz.h
+	<postac.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1607708888 c:\programy c\the city of blind justice\include\komisariat.h
+	<Budynek.h>
+	<vector>
+	<Policjant.h>
+	<Patrol.h>
+
+1611490928 c:\programy c\the city of blind justice\include\policjant.h
+	<postac.h>
+
+1606156038 c:\programy c\the city of blind justice\include\patrol.h
+	"Policjant_akcja.h"
+	"Pies_policyjny.h"
+	"Komisariat.h"
+
+1605986826 c:\programy c\the city of blind justice\include\policjant_akcja.h
+	<Policjant.h>
+	<Wiezien.h>
+	<Wiezienie.h>
+
+1605984136 c:\programy c\the city of blind justice\include\wiezien.h
+	<iostream>
+	<postac.h>
+	<Wiezienie.h>
+
+1607708842 c:\programy c\the city of blind justice\include\wiezienie.h
+	<iostream>
+	<vector>
+	<Budynek.h>
+	<Wiezien.h>
+
+1607714272 c:\programy c\the city of blind justice\include\pies_policyjny.h
+	"Pies.h"
+
+1607717910 c:\programy c\the city of blind justice\include\pies.h
+	"zwierze.h"
+
+1607719140 c:\programy c\the city of blind justice\include\zwierze.h
+	<Istota.h>
+
+1604518688 c:\programy c\the city of blind justice\include\przyjazn.h
+	<Dom.h>
+	<Dodanie_osoby.h>
+
+1603829778 c:\programy c\the city of blind justice\include\dodanie_osoby.h
+	<iostream>
+	<windows.h>
+
+1606160838 c:\programy c\the city of blind justice\include\ministerstwo.h
+	<iostream>
+	<vector>
+
+1603830024 c:\programy c\the city of blind justice\include\losowanie.h
+	<stdlib.h>
+
+1605996242 c:\programy c\the city of blind justice\include\dane_osobowe.h
+	<iostream>
+
+1603830024 c:\programy c\the city of blind justice\include\infrastruktura.h
+	<iostream>
+	<windows.h>
+
+1603830024 c:\programy c\the city of blind justice\include\informacja_budowlana.h
+	<iostream>
+	<windows.h>
+
+1604671494 c:\programy c\the city of blind justice\include\urzednik.h
+	<iostream>
+	<string>
+	<stdio.h>
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<Sprzatacz.h>
+	<Dom.h>
+
+1611479314 c:\programy c\the city of blind justice\include\policjant_biuro.h
+	<Policjant.h>
+	<Wiezien.h>
+
+1607717910 c:\programy c\the city of blind justice\include\kot.h
+	"zwierze.h"
+
+1607717626 source:c:\programy c\the city of blind justice\src\budynek.cpp
+	"Budynek.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1603732420 source:c:\programy c\the city of blind justice\src\dane_osobowe.cpp
+	"Dane_osobowe.h"
+
+1603735258 source:c:\programy c\the city of blind justice\src\dodanie_osoby.cpp
+	"Dodanie_osoby.h"
+
+1677170741 source:c:\programy c\the city of blind justice\src\dom.cpp
+	"Dom.h"
+	<obywatel.h>
+	<vector>
+	<stdio.h>
+
+1607717626 source:c:\programy c\the city of blind justice\src\dzielnica.cpp
+	"Dzielnica.h"
+
+1603801758 source:c:\programy c\the city of blind justice\src\informacja_budowlana.cpp
+	"informacja_budowlana.h"
+
+1603738792 source:c:\programy c\the city of blind justice\src\infrastruktura.cpp
+	"infrastruktura.h"
+
+1606149014 source:c:\programy c\the city of blind justice\src\istota.cpp
+	"Istota.h"
+
+1607708212 source:c:\programy c\the city of blind justice\src\komisariat.cpp
+	"Komisariat.h"
+	<Policjant_akcja.h>
+	<Policjant_biuro.h>
+
+1607717910 source:c:\programy c\the city of blind justice\src\kot.cpp
+	"Kot.h"
+	<iostream>
+
+1603728684 source:c:\programy c\the city of blind justice\src\losowanie.cpp
+	"losowanie.h"
+
+1606162276 source:c:\programy c\the city of blind justice\src\ministerstwo.cpp
+	"Ministerstwo.h"
+	<iostream>
+	<vector>
+	<fstream>
+
+1611488504 source:c:\programy c\the city of blind justice\src\obywatel.cpp
+	"Obywatel.h"
+	<iostream>
+	<postac.h>
+	<vector>
+
+1607717910 source:c:\programy c\the city of blind justice\src\patrol.cpp
+	"Patrol.h"
+	<iostream>
+	<Komisariat.h>
+	"Pies_policyjny.h"
+
+1607717910 source:c:\programy c\the city of blind justice\src\pies.cpp
+	"Pies.h"
+	<iostream>
+
+1607717910 source:c:\programy c\the city of blind justice\src\pies_policyjny.cpp
+	"Pies_policyjny.h"
+	<iostream>
+	<conio.h>
+
+1611490568 source:c:\programy c\the city of blind justice\src\policjant.cpp
+	<iostream>
+	<Policjant.h>
+
+1680296607 source:c:\programy c\the city of blind justice\src\policjant_akcja.cpp
+	"Policjant_akcja.h"
+
+1607708934 source:c:\programy c\the city of blind justice\src\policjant_biuro.cpp
+	<Policjant_biuro.h>
+	<fstream>
+
+1607719530 source:c:\programy c\the city of blind justice\src\postac.cpp
+	"Postac.h"
+	<iostream>
+
+1604518688 source:c:\programy c\the city of blind justice\src\przyjazn.cpp
+	"przyjazn.h"
+	<Dom.h>
+
+1607709626 source:c:\programy c\the city of blind justice\src\sad.cpp
+	"Sad.h"
+	<iostream>
+	<Budynek.h>
+	<conio.h>
+
+1611491510 source:c:\programy c\the city of blind justice\src\sedzia.cpp
+	"Sedzia.h"
+	<postac.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1605987394 source:c:\programy c\the city of blind justice\src\sprzatacz.cpp
+	"Sprzatacz.h"
+	<postac.h>
+	<Komisariat.h>
+	<Policjant.h>
+	<Sad.h>
+	<Wiezienie.h>
+
+1605987394 source:c:\programy c\the city of blind justice\src\urzednik.cpp
+	"Urzednik.h"
+	<Komisariat.h>
+	<Sad.h>
+	<Wiezienie.h>
+	<iostream>
+	<Sprzatacz.h>
+
+1605984954 source:c:\programy c\the city of blind justice\src\wiezien.cpp
+	"Wiezien.h"
+	"postac.h"
+	<iostream>
+
+1607708466 source:c:\programy c\the city of blind justice\src\wiezienie.cpp
+	"Wiezienie.h"
+	<iostream>
+	<Budynek.h>
+	<Wiezien.h>
+
+1607719448 source:c:\programy c\the city of blind justice\src\zwierze.cpp
+	"zwierze.h"
+	<iostream>
+

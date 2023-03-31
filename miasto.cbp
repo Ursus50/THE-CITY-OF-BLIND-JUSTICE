@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="miasto" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/miasto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/miasto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Budynek.h" />
+		<Unit filename="include/Dane_osobowe.h" />
+		<Unit filename="include/Dodanie_osoby.h" />
+		<Unit filename="include/Dom.h" />
+		<Unit filename="include/Dzielnica.h" />
+		<Unit filename="include/Istota.h" />
+		<Unit filename="include/Komisariat.h" />
+		<Unit filename="include/Kot.h" />
+		<Unit filename="include/Ministerstwo.h" />
+		<Unit filename="include/Patrol.h" />
+		<Unit filename="include/Pies.h" />
+		<Unit filename="include/Pies_policyjny.h" />
+		<Unit filename="include/Policjant.h" />
+		<Unit filename="include/Policjant_akcja.h" />
+		<Unit filename="include/Policjant_biuro.h" />
+		<Unit filename="include/Sad.h" />
+		<Unit filename="include/Sedzia.h" />
+		<Unit filename="include/Sprzatacz.h" />
+		<Unit filename="include/Urzednik.h" />
+		<Unit filename="include/Wiezien.h" />
+		<Unit filename="include/Wiezienie.h" />
+		<Unit filename="include/informacja_budowlana.h" />
+		<Unit filename="include/infrastruktura.h" />
+		<Unit filename="include/losowanie.h" />
+		<Unit filename="include/obywatel.h" />
+		<Unit filename="include/postac.h" />
+		<Unit filename="include/przyjazn.h" />
+		<Unit filename="include/zwierze.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Budynek.cpp" />
+		<Unit filename="src/Dane_osobowe.cpp" />
+		<Unit filename="src/Dodanie_osoby.cpp" />
+		<Unit filename="src/Dom.cpp" />
+		<Unit filename="src/Dzielnica.cpp" />
+		<Unit filename="src/Istota.cpp" />
+		<Unit filename="src/Komisariat.cpp" />
+		<Unit filename="src/Kot.cpp" />
+		<Unit filename="src/Ministerstwo.cpp" />
+		<Unit filename="src/Patrol.cpp" />
+		<Unit filename="src/Pies.cpp" />
+		<Unit filename="src/Pies_policyjny.cpp" />
+		<Unit filename="src/Policjant.cpp" />
+		<Unit filename="src/Policjant_akcja.cpp" />
+		<Unit filename="src/Policjant_biuro.cpp" />
+		<Unit filename="src/Sad.cpp" />
+		<Unit filename="src/Sedzia.cpp" />
+		<Unit filename="src/Sprzatacz.cpp" />
+		<Unit filename="src/Urzednik.cpp" />
+		<Unit filename="src/Wiezien.cpp" />
+		<Unit filename="src/Wiezienie.cpp" />
+		<Unit filename="src/informacja_budowlana.cpp" />
+		<Unit filename="src/infrastruktura.cpp" />
+		<Unit filename="src/losowanie.cpp" />
+		<Unit filename="src/obywatel.cpp" />
+		<Unit filename="src/postac.cpp" />
+		<Unit filename="src/przyjazn.cpp" />
+		<Unit filename="src/zwierze.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
