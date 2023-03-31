@@ -1,3 +1,5 @@
+#THE-CITY-OF-BLIND-JUSTICE
+
 Program został zbudowany w Code::Blocks 17.12
 Program przydstawia wycinek miasta jakim jest wymiar sprawiedliwości.
 
