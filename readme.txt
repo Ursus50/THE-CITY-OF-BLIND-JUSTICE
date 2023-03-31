@@ -1,5 +1,4 @@
 Program został zbudowany w Code::Blocks 17.12
-Program "miasto"
 Program przydstawia wycinek miasta jakim jest wymiar sprawiedliwości.
 
 Program umozliwia tworzenie:
